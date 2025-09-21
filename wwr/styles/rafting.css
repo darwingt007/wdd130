@@ -1,7 +1,7 @@
 :root {
-    --primary-colors: #adbed7;
+    --primary-colors: #11161d;
     --secondary-color: #a8dadc;
-    --accent1-color: #e63946
+    --accent1-color: steel-blue;
     --accent2-color: #f1faee;
     --herading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, Sans-serif;
@@ -31,7 +31,7 @@ h1, h2 {
     color: var(--primary-colors);
 }
 
-h1, h2 {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -39,6 +39,7 @@ h1, h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
+    color: #fff;
     font-family: var(--herading-font);
 }
 
