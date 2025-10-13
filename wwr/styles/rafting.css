@@ -233,3 +233,12 @@ footer {
     border-radius: 8px;
     object-fit: cover;
 }
+
+header p,
+header strong,
+.hero article p,
+.hero article strong,
+footer p,
+footer strong {
+    color: #ffffff;
+}
