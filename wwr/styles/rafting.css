@@ -72,6 +72,10 @@ p {
     color: var(--accent2-color);
 }
 
+.mission p {
+  color: var(--accent2-color);
+}
+
 .history-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
